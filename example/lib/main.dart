@@ -34,7 +34,11 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Text(
-            'To show a popup box,e click floating action button.'),
+          'To show a popup box, click the floating action button.',
+          style: TextStyle(
+            fontSize: 15,
+          ),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
