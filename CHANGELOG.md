@@ -2,7 +2,7 @@
 
 * Initial open source release
 
-## [pre-v0.1]
+## [0.0.2+pre-v0.1]
 
 * Changed default color of close button
-* Chnaged default color of text
+* Changed default color of text
