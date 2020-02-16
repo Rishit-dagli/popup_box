@@ -1,6 +1,6 @@
 # example
 
-A Flutter application to demonstrate the use of popup_box.
+A Flutter application to show the use of popup_box.
 
 ## Getting Started
 
