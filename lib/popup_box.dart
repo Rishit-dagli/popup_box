@@ -39,8 +39,13 @@ class PopupBox {
               children: <Widget>[
                 willDisplayWidget,
                 MaterialButton(
-                  color: Colors.white30,
-                  child: Text('close box'),
+                  color: Colors.blue,
+                  child: Text(
+                      'close box',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
                   onPressed: () {
                     Navigator.of(context).pop();
                   },
