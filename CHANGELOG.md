@@ -1,3 +1,8 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1]
 
-* Initial release
+* Initial open source release
+
+## [pre-v0.1]
+
+* Changed default color of close button
+* Chnaged default color of text

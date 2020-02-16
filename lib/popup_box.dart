@@ -41,7 +41,7 @@ class PopupBox {
                 MaterialButton(
                   color: Colors.blue,
                   child: Text(
-                      'close box',
+                    'close box',
                     style: TextStyle(
                       color: Colors.white,
                     ),
