@@ -24,34 +24,25 @@ class PopupBox {
   static Future showPopupBox({
     @required BuildContext context,
     @required Widget willDisplayWidget,
+    @required Widget button,
   }) {
     assert(context != null, "context is null");
     assert(willDisplayWidget != null, "willDisplayWidget is null");
+    assert(button != null, "button is null");
     return showDialog(
         context: context,
         builder: (context) {
           return AlertDialog(
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.all(Radius.circular(10)),
+              borderRadius: BorderRadius.circular(40),
             ),
             content: Column(
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 willDisplayWidget,
-                MaterialButton(
-                  color: Colors.blue,
-                  child: Text(
-                    'close box',
-                    style: TextStyle(
-                      color: Colors.white,
-                    ),
-                  ),
-                  onPressed: () {
-                    Navigator.of(context).pop();
-                  },
-                )
               ],
             ),
+            actions: <Widget>[button],
             elevation: 10,
           );
         });

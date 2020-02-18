@@ -44,11 +44,32 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: () async {
           await PopupBox.showPopupBox(
               context: context,
-              willDisplayWidget: Container(
-                child: Text('An example popup box text'),
+              button: MaterialButton(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                color: Colors.blue,
+                child: Text(
+                  'Ok',
+                  style: TextStyle(fontSize: 20),
+                ),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              ),
+              willDisplayWidget: Column(
+                children: <Widget>[
+                  Text(
+                    'Hi',
+                    style: TextStyle(fontSize: 40, color: Colors.black),
+                  ),
+                  SizedBox(
+                    height: 30,
+                  )
+                ],
               ));
         },
-        tooltip: 'Show Popup Box Box',
+        tooltip: 'Show Popup Box',
         child: Icon(Icons.message),
       ),
     );
