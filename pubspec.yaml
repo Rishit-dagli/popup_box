@@ -1,7 +1,7 @@
 name: popup_box
 description: A Flutter package to easily create popup boxes, complete customization and animations
   are possible.
-version: 0.1
+version: 0.1.0
 author: Rishit Dagli<rishit.dagli@gmail.com>
 homepage: https://github.com/Rishit-dagli/popup_box
 
