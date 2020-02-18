@@ -1,6 +1,7 @@
 name: popup_box
-description: A Flutter package to easily create popup boxes with a button , "close alert" by default.
-version: 0.0.2+pre-v0.1
+description: A Flutter package to easily create popup boxes, complete customization and animations
+  are possible.
+version: 0.1
 author: Rishit Dagli<rishit.dagli@gmail.com>
 homepage: https://github.com/Rishit-dagli/popup_box
 
