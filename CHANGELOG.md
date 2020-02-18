@@ -1,4 +1,4 @@
-## [0.1]
+## [0.1.0]
 
 * Full customization possible for button
 * Enabled button to navigate to different routes
